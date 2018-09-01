@@ -1,6 +1,6 @@
 ﻿using System;
-
 using UIKit;
+using RealmSample;
 
 namespace XamarinRealm
 {
@@ -8,7 +8,8 @@ namespace XamarinRealm
     {
         partial void Down(UIButton sender)
         {
-
+            RealmTest test = new RealmTest();
+            test.ExcecuteSample01();
         }
 
         protected ViewController(IntPtr handle) : base(handle)
