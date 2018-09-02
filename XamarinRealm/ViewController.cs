@@ -9,7 +9,7 @@ namespace XamarinRealm
         partial void Down(UIButton sender)
         {
             RealmTest test = new RealmTest();
-            test.ExcecuteSample01();
+            test.ExcecuteSample08();
         }
 
         protected ViewController(IntPtr handle) : base(handle)

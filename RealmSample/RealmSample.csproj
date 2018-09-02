@@ -30,6 +30,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="RealmTest.cs" />
+    <Compile Include="Dog.cs" />
+    <Compile Include="Cat.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
